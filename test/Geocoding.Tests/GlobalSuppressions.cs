@@ -5,4 +5,4 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Usage", "xUnit1003:Theory methods must have test data", Justification = "<Pending>", Scope = "member", Target = "~M:Geocoding.Tests.YahooGeocoderTest.CanGeocodeAddress(System.String)~System.Threading.Tasks.Task")]
+[assembly: SuppressMessage("Usage", "xUnit1003:Theory methods must have test data", Justification = "Pending", Scope = "member", Target = "~M:Geocoding.Tests.YahooGeocoderTest.CanGeocodeAddress(System.String)~System.Threading.Tasks.Task")]
