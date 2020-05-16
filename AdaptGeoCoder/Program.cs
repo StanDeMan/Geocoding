@@ -39,7 +39,7 @@ namespace AdaptGeoCoder
 	        Console.WriteLine("Coordinates: " + addressList?.First().Coordinates.Latitude + ", " + addressList?.First().Coordinates.Longitude); 
 	        Console.WriteLine();
 
-	        addresses = await geoCoder.GeocodeAsync("Newcastle ");
+	        addresses = await geoCoder.GeocodeAsync("Newcastle");
 	        addressList = addresses?.ToList();
 
 	        if (addressList != null)
