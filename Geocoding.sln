@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{F742864D-9400-4CE2-957A-DBD0A0237277}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Core", "src\Geocoding.Core\Geocoding.Core.csproj", "{8F490709-2265-4AAF-BAE7-A18FE054320F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Google", "src\Geocoding.Google\Geocoding.Google.csproj", "{CA6983AD-C1B2-4524-93FF-2281C657B037}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.MapQuest", "src\Geocoding.MapQuest\Geocoding.MapQuest.csproj", "{B46F0315-6CE4-414A-BDDA-186090F5062C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Microsoft", "src\Geocoding.Microsoft\Geocoding.Microsoft.csproj", "{27F58640-D424-40F5-945E-42BF8BC872A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Yahoo", "src\Geocoding.Yahoo\Geocoding.Yahoo.csproj", "{9773C7DA-DD1A-490D-B4D8-CEA18804AD1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Tests", "test\Geocoding.Tests\Geocoding.Tests.csproj", "{B87FBD8D-1E79-49F0-B06D-B4B15C1BA9C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geocoding.Here", "src\Geocoding.Here\Geocoding.Here.csproj", "{41F9E0D3-2094-4CE7-A2CD-F3CAF585A048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptGeoCoder", "AdaptGeoCoder\AdaptGeoCoder.csproj", "{2D3BBDCB-1979-40F1-82DA-7C4DF906CC8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F490709-2265-4AAF-BAE7-A18FE054320F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F490709-2265-4AAF-BAE7-A18FE054320F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F490709-2265-4AAF-BAE7-A18FE054320F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F490709-2265-4AAF-BAE7-A18FE054320F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6983AD-C1B2-4524-93FF-2281C657B037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6983AD-C1B2-4524-93FF-2281C657B037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6983AD-C1B2-4524-93FF-2281C657B037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6983AD-C1B2-4524-93FF-2281C657B037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46F0315-6CE4-414A-BDDA-186090F5062C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46F0315-6CE4-414A-BDDA-186090F5062C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46F0315-6CE4-414A-BDDA-186090F5062C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46F0315-6CE4-414A-BDDA-186090F5062C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F58640-D424-40F5-945E-42BF8BC872A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F58640-D424-40F5-945E-42BF8BC872A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F58640-D424-40F5-945E-42BF8BC872A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F58640-D424-40F5-945E-42BF8BC872A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9773C7DA-DD1A-490D-B4D8-CEA18804AD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9773C7DA-DD1A-490D-B4D8-CEA18804AD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9773C7DA-DD1A-490D-B4D8-CEA18804AD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9773C7DA-DD1A-490D-B4D8-CEA18804AD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87FBD8D-1E79-49F0-B06D-B4B15C1BA9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87FBD8D-1E79-49F0-B06D-B4B15C1BA9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87FBD8D-1E79-49F0-B06D-B4B15C1BA9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87FBD8D-1E79-49F0-B06D-B4B15C1BA9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F9E0D3-2094-4CE7-A2CD-F3CAF585A048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F9E0D3-2094-4CE7-A2CD-F3CAF585A048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F9E0D3-2094-4CE7-A2CD-F3CAF585A048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F9E0D3-2094-4CE7-A2CD-F3CAF585A048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3BBDCB-1979-40F1-82DA-7C4DF906CC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3BBDCB-1979-40F1-82DA-7C4DF906CC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3BBDCB-1979-40F1-82DA-7C4DF906CC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3BBDCB-1979-40F1-82DA-7C4DF906CC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA6983AD-C1B2-4524-93FF-2281C657B037} = {F742864D-9400-4CE2-957A-DBD0A0237277}
+		{B46F0315-6CE4-414A-BDDA-186090F5062C} = {F742864D-9400-4CE2-957A-DBD0A0237277}
+		{27F58640-D424-40F5-945E-42BF8BC872A0} = {F742864D-9400-4CE2-957A-DBD0A0237277}
+		{9773C7DA-DD1A-490D-B4D8-CEA18804AD1E} = {F742864D-9400-4CE2-957A-DBD0A0237277}
+		{41F9E0D3-2094-4CE7-A2CD-F3CAF585A048} = {F742864D-9400-4CE2-957A-DBD0A0237277}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {085E97E6-56E0-4099-94E9-10F9080F2DD1}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Tests\Tests.csproj
+	EndGlobalSection
+EndGlobal
