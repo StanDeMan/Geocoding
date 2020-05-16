@@ -18,10 +18,8 @@ namespace Geocoding.Tests
 			);
 		}
 
-		//TODO: delete these when tests are ready to be unskipped
-		//see issue #27
-
 		[Fact(Skip = "oauth not working for yahoo - see issue #27")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1001:Fact methods cannot have parameters", Justification = "<Pending>")]
 		public override Task CanGeocodeAddress(string address)
 		{
 		    return Task.CompletedTask;
@@ -34,12 +32,14 @@ namespace Geocoding.Tests
         }
 
 		[Fact(Skip = "oauth not working for yahoo - see issue #27")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1001:Fact methods cannot have parameters", Justification = "<Pending>")]
 		public override Task CanGeocodeAddressUnderDifferentCultures(string cultureName)
         {
             return Task.CompletedTask;
         }
 
 		[Fact(Skip = "oauth not working for yahoo - see issue #27")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1001:Fact methods cannot have parameters", Justification = "<Pending>")]
 		public override Task CanReverseGeocodeAddressUnderDifferentCultures(string cultureName)
         {
             return Task.CompletedTask;
@@ -52,6 +52,7 @@ namespace Geocoding.Tests
         }
 
 		[Fact(Skip = "oauth not working for yahoo - see issue #27")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1001:Fact methods cannot have parameters", Justification = "<Pending>")]
 		public override Task CanGeocodeWithSpecialCharacters(string address)
         {
             return Task.CompletedTask;
@@ -64,12 +65,14 @@ namespace Geocoding.Tests
         }
 
 		[Fact(Skip = "oauth not working for yahoo - see issue #27")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1001:Fact methods cannot have parameters", Justification = "<Pending>")]
 		public override Task CanGeocodeInvalidZipCodes(string address)
         {
             return Task.CompletedTask;
         }
 
 		[Fact(Skip = "oauth not working for yahoo - see issue #27")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "xUnit1001:Fact methods cannot have parameters", Justification = "<Pending>")]
 		public override Task CanHandleStreetIntersectionsByAmpersand(string address)
         {
             return Task.CompletedTask;
